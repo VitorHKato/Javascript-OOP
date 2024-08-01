@@ -20,3 +20,23 @@ the area and perimeter of the rectangle, respectively.
 
 - Create a class ShoppingCart with an array of Product objects. Add methods addProduct(product), removeProduct(productId), 
 and getTotalCost(). Create a ShoppingCart object, add some products, and calculate the total cost.
+
+## Object Lifecycle Management: Constructors and Destructors
+- Create a class User that has the attributes username, email, and password. Add a constructor to initialize these 
+attributes when a User object is created. Then, add a method deleteAccount() that simulates the destruction of the object 
+by printing a message indicating that the account has been deleted.
+
+## Object References
+- Create a class Book with the attributes title, author, and isbn. Add methods to get and set these attributes. Then, 
+create a class Library that maintains a list of Book objects. Add methods to add and remove books from the library. 
+Finally, create a method that finds a book by its ISBN and returns a reference to the corresponding Book object.
+
+## Relationships Between Objects
+- Create a class Employee with the attributes name and position. Then, create a class Department that has an attribute 
+name and a list of Employee objects. Add methods to add and remove employees from the department. Finally, create a 
+method that returns a list of names of all employees in a given department.
+
+## Persistence
+- Create a class Contact with the attributes name, phone, and email. Add methods to get and set these attributes. Then, 
+create a class ContactManager that has a method saveContactsToFile() to save all contacts to a JSON file, and a method 
+loadContactsFromFile() to load contacts from a JSON file and add them to the ContactManager's list of contacts.

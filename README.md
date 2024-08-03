@@ -40,3 +40,14 @@ method that returns a list of names of all employees in a given department.
 - Create a class Contact with the attributes name, phone, and email. Add methods to get and set these attributes. Then, 
 create a class ContactManager that has a method saveContactsToFile() to save all contacts to a JSON file, and a method 
 loadContactsFromFile() to load contacts from a JSON file and add them to the ContactManager's list of contacts.
+
+## Inheritance
+- Create a base class Person with a constructor that initializes the name property and a method greet that prints 
+"Hello, my name is name". Create a subclass Student that inherits from Person and has an additional property studentId.
+The Student class should have a method study that prints "Student name is studying."
+- Create a base class Shape with a method area that returns 0. Create a subclass Rectangle that inherits from Shape and
+adds properties width and height. Override the area method to return the area of the rectangle.
+
+## Mixin
+- Create two mixins: CanRun with a method run that prints "Running fast!", and CanJump with a method jump that prints 
+"Jumping high!". Create a class Athlete that uses both mixins and has an additional method train that prints "Athlete is training".

@@ -51,3 +51,14 @@ adds properties width and height. Override the area method to return the area of
 ## Mixin
 - Create two mixins: CanRun with a method run that prints "Running fast!", and CanJump with a method jump that prints 
 "Jumping high!". Create a class Athlete that uses both mixins and has an additional method train that prints "Athlete is training".
+
+## Visibility and Scope
+- Create a system to manage a library of books that includes the following functionalities:
+Book Class: Public properties title and author. Private property isbn with getter and setter methods to access and 
+modify the isbn, ensuring it is a 13-character string. Public method getInfo that returns a string with the book's 
+title and author.
+- Library Class: Private property _books which is an array of Book objects. Public method addBook that accepts a Book 
+object and adds it to the _books array. Public method removeBook that accepts an isbn and removes the corresponding book 
+from the _books array. Public method findBookByTitle that accepts a title and returns the first matching book found.
+Private method listBooks that prints all books in the library (used internally). Static method createLibraryWithBooks 
+that accepts an array of Book objects and returns an instance of Library with those books added. 

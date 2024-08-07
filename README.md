@@ -62,3 +62,9 @@ object and adds it to the _books array. Public method removeBook that accepts an
 from the _books array. Public method findBookByTitle that accepts a title and returns the first matching book found.
 Private method listBooks that prints all books in the library (used internally). Static method createLibraryWithBooks 
 that accepts an array of Book objects and returns an instance of Library with those books added. 
+
+## Polymorphism
+- Create a base class 'Animal' with a method 'makeSound'. Create two subclasses 'Dog' and 'Cat' that inherit from
+'Animal' and implement the 'makeSound' method with appropriate sounds (e.g., 'Bark' and 'Meow'). Create a function
+that accepts an 'Animal' object and calls its 'makeSound' method. Demonstrate the use of the function with 'Dog'
+and 'Cat' objects.

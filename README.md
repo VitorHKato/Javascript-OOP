@@ -68,3 +68,20 @@ that accepts an array of Book objects and returns an instance of Library with th
 'Animal' and implement the 'makeSound' method with appropriate sounds (e.g., 'Bark' and 'Meow'). Create a function
 that accepts an 'Animal' object and calls its 'makeSound' method. Demonstrate the use of the function with 'Dog'
 and 'Cat' objects.
+
+## Method overload, Substitution Principle and Dynamic Binding
+- Create a Calculator class with a sum method that: Accepts two numbers and returns their sum. Accepts three numbers and 
+returns their sum. Accepts an array of numbers and returns the sum of all elements.
+- Create a base class Shape with a calculateArea method that returns 0. Create two subclasses Circle and Rectangle that 
+inherit from Shape and override the calculateArea method to calculate the area of a circle and a rectangle, respectively. 
+Demonstrate the creation of Circle and Rectangle objects and the call to the calculateArea method.
+- Create a base class Shape with an area method. Create two subclasses Square and Rectangle. The Square class should have
+a side attribute, and the Rectangle class should have width and height attributes. The area method in both subclasses 
+should return the correct area according to the shape. Demonstrate how an object of type Square or Rectangle can be used 
+wherever a Shape object is expected, without altering the correct behavior of the program.
+- Create a base class Vehicle with a move method that returns a string "The vehicle is moving". Create two subclasses Car
+and Bicycle that override the move method to return "The car is driving" and "The bicycle is pedaling", respectively. 
+Additionally, add a new method stop to the Vehicle class that returns "The vehicle has stopped". Override the stop method 
+in both Car and Bicycle to return "The car has stopped" and "The bicycle has stopped". Create a function that accepts an 
+array of Vehicle objects and calls the move and stop methods of each one, demonstrating the behavior of dynamic binding
+with the extended behavior.

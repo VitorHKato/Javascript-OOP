@@ -85,3 +85,16 @@ Additionally, add a new method stop to the Vehicle class that returns "The vehic
 in both Car and Bicycle to return "The car has stopped" and "The bicycle has stopped". Create a function that accepts an 
 array of Vehicle objects and calls the move and stop methods of each one, demonstrating the behavior of dynamic binding
 with the extended behavior.
+
+## Abstract and Nested classes
+- Create an abstract base class Employee with a calculateSalary method. Create two subclasses HourlyEmployee and 
+SalariedEmployee. The HourlyEmployee class should have an attribute hoursWorked and a calculateSalary method that returns 
+the salary based on hours worked. The SalariedEmployee class should have an attribute monthlySalary, and the 
+calculateSalary method should return the monthly salary. Demonstrate how objects of the HourlyEmployee and 
+SalariedEmployee classes can be used.
+- Create a Computer class with a nested Processor class. The Processor class should have attributes such as frequency and 
+model, and a method that prints the processor's specifications. Create a Computer object and, from it, create a Processor 
+object, demonstrating how to access the nested class.
+- Create a School class that has a nested Classroom class. The Classroom class should have attributes such as name and 
+numberOfStudents, and a method that returns a description of the classroom. Instantiate a School object, create a 
+classroom, and call the method of the Classroom class to display the description.
